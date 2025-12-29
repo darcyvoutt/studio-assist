@@ -1,0 +1,264 @@
+{
+  "general": {
+    "bpm": "BPM",
+    "close": "Close",
+    "cancel": "Cancel",
+    "frequencies": {
+      "hertz": "Hz",
+      "kilohertz": "kHz"
+    },
+    "loading": "Loading",
+    "preview": "Pro Feature",
+    "preview_long": "This is only available with the Pro Mode.",
+    "pro": "Pro Mode",
+    "time": {
+      "milliseconds": "milliseconds",
+      "ms": "ms",
+      "seconds": "seconds",
+      "sec": "s"
+    },
+    "title": "Studio Assist",
+    "submit": "Submit",
+    "submitting": "Submitting form",
+    "offline": "You are currently offline"
+  },
+  "device": {
+    "label": "Device Name",
+    "placeholder": "MacBook Pro",
+    "format": "Letters & numbers only"
+  },
+  "files": {
+    "autoupdate": "Auto-update key and tempo",
+    "double": "Double Time",
+    "errors": {
+      "aiff": "AIFF files are not supported",
+      "detection": "Unable to detect this file",
+      "none": "You did not select an audio file",
+      "size": "The file size is too small"
+    },
+    "file": "File",
+    "halftime": "Half Time",
+    "history": "Past file detections",
+    "song_key": "Song Key",
+    "support": "Supported files include WAV, M4A, MP3",
+    "tempo": "Tempo",
+    "title": "File Detection",
+    "info": "Upload a file to automatically detect its tempo, key, and other essential metrics.",
+    "upgrade": "Pro Features: detect song key, LUFS measurements and see historical measurements.",
+    "loading": "Scanning file",
+    "update": "Update",
+    "updated": "App tempo updated to [tempo] BPM",
+    "updated_key": "App key updated to [key] [scale]",
+    "upload": "Click to select file for analysis",
+    "upload_new": "Upload new",
+    "multiply": {
+      "double": "2x",
+      "half": "0.5x"
+    }
+  },
+  "menu": {
+    "calculator": "Milliseconds",
+    "scales": "Scales",
+    "settings": "Settings",
+    "files": "Tempo",
+    "title": "Menu navigation",
+    "reference": "Reference"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "French",
+    "es": "Spanish"
+  },
+  "milliseconds": {
+    "info": "Automatically calculate the optimal reverb times that synchronize with your song's tempo.",
+    "upgrade": "Pro Features: predelay, triplet and dot notation, click to copy, convert to seconds, swing and keyboard shortcuts.",
+    "copying_seconds": "Copying in seconds",
+    "carousel": {
+      "focus": "Focus on calculations"
+    },
+    "copied": "Copied [time] for [notation]",
+    "decrease": "Decrease by one",
+    "increase": "Increase by one",
+    "modifiers": {
+      "dotted": "Dotted",
+      "standard": "Standard",
+      "triplets": "Triplets"
+    },
+    "notes": {
+      "128": "1/128",
+      "64": "1/64",
+      "32": "1/32",
+      "16": "1/16",
+      "8": "1/8",
+      "4": "1/4",
+      "2": "1/2",
+      "1": "1 bar",
+      "1half": "1.5 bars",
+      "2bars": "2 bars",
+      "3bars": "3 bars",
+      "4bars": "4 bars"
+    },
+    "pre": "Pre",
+    "predelay": "Pre-Delay",
+    "predelays": {
+      "none": "No Pre-Delay",
+      "256": "1/256",
+      "128": "1/128",
+      "64": "1/64",
+      "32": "1/32",
+      "16": "1/16",
+      "8": "1/8",
+      "4": "1/4"
+    },
+    "reset": "Reset swing",
+    "tempo": "Tempo",
+    "title": "Milliseconds Calculator",
+    "tap": "Tap Here",
+    "tap_tempo": "Tap Tempo",
+    "tap_update": "Update Tempo",
+    "shortcuts": {
+      "modifier": "Copy in seconds - Click + Hold 'CMD / CTRL'",
+      "tap": "Tap - Press 'T / Space / Enter'"
+    }
+  },
+  "scales": {
+    "copied": "Copied frequency for [key] to clipboard",
+    "names": {
+      "major": "Major",
+      "minor": "Minor"
+    },
+    "octave": "Octave",
+    "ranges": {
+      "sub": "Sub",
+      "lows": "Lows",
+      "lowmids": "Low-mids",
+      "mids": "Mids",
+      "highmids": "High-mids",
+      "presence": "Presence",
+      "air": "Air"
+    },
+    "relative": "Relative [scale]",
+    "search_keys": "Search keys",
+    "search_scales": "Search scales",
+    "title": "Scales & Frequencies",
+    "info": "Easily pull up every key and scale along with frequency information for every octave.",
+    "upgrade": "Pro Features: remaining scales and all flat/sharp notes."
+  },
+  "settings": {
+    "headings": {
+      "fonts": "Font Size",
+      "language": "Language",
+      "reset": "Reset Settings / Logs",
+      "title": "Settings",
+      "theme": "Appearance"
+    },
+    "info": {
+      "fonts": "Increase or decrease readability.",
+      "language": "Your preferred language.",
+      "reset": "Reset settings or save logs files to desktop for support.",
+      "theme": "Determine color scheme."
+    },
+    "decimals": {
+      "heading": "Trim Decimals",
+      "info": "Maximum number of decimals to copy."
+    },
+    "fonts": {
+      "options": {
+        "sm": "Small",
+        "base": "Normal",
+        "lg": "Large",
+        "xl": "Extra Large"
+      }
+    },
+    "menu": {
+      "preferences": "Preferences",
+      "key_detection": "Key Detection",
+      "metronome": "Metronome"
+    },
+    "theme": {
+      "auto": "System",
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "key_detection": {
+      "auto_tuning": {
+        "label": "Auto Detect"
+      },
+      "tuning": {
+        "heading": "Tuning Frequency",
+        "info": "Will automatically be detected. Disable to manually configure."
+      },
+      "frequency": {
+        "heading": "Frequency Range",
+        "info": "The minimum and maximum frequencies to evaluate.",
+        "min": "Min",
+        "max": "Max"
+      },
+      "profile": {
+        "heading": "Detection Profile",
+        "info": "The polyphonic detection profile used to detect the key."
+      }
+    }
+  },
+  "shortcuts": {
+    "shortcut": "Press 'S'"
+  },
+  "metronome": {
+    "start": "Start",
+    "stop": "Stop",
+    "settings": "Metronome Settings",
+    "time": {
+      "heading": "Time Signature"
+    },
+    "tone": {
+      "heading": "Tone Frequency",
+      "tick_tone": "Normal",
+      "tick_tone_start": "First",
+      "tick_volume": "Volume"
+    },
+    "volume": {
+      "heading": "Tone Volume"
+    },
+    "shortcuts": {
+      "start": "Start - Press 'Space / Enter'",
+      "stop": "Stop - Press 'Space / Enter'"
+    }
+  },
+  "reference": {
+    "title": "Reference",
+    "info": "Compare two audio files by equalizing their average loudness, enabling accurate assessment of differences.",
+    "upgrade": "Pro Features: auto gain matching and keyboard shortcuts.",
+    "labels": {
+      "add_a": "Song A",
+      "add_b": "Song B",
+      "replace_a": "Replace A",
+      "replace_b": "Replace B"
+    },
+    "controls": {
+      "volume": "Volume",
+      "reset": "Refresh"
+    },
+    "gain": {
+      "on": "Gain Match On",
+      "off": "Gain Match Off",
+      "toggle": "Toggle gain match"
+    },
+    "shortcuts": {
+      "play": "Play - Press 'Space'",
+      "stop": "Stop - Press 'Enter'",
+      "toggle_song": "Toggle - Press 'T'",
+      "toggle_gain": "Gain Up/Down - Press 'H'",
+      "toggle_match": "Gain Match - Press 'G'",
+      "volume": "Volume - Press 'Arrow Up / Down'",
+      "mute": "Mute - Press 'M'",
+      "file_a": "File A - Press '1'",
+      "file_b": "File B - Press '2'",
+      "skip_left": "Rewind 10s - Press 'Arrow Left'",
+      "skip_right": "Skip 10s - Press 'Arrow Right'"
+    },
+    "tracks": {
+      "load": "Load file - \"[file]\"",
+      "error_used": "This track already has this file."
+    }
+  }
+}

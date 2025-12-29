@@ -1,0 +1,264 @@
+{
+  "general": {
+    "bpm": "BPM",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "frequencies": {
+      "hertz": "Hz",
+      "kilohertz": "kHz"
+    },
+    "loading": "Cargando",
+    "preview": "Función Exclusiva de Pro",
+    "preview_long": "Esto solo está disponible con el Modo Pro.",
+    "pro": "Modo Pro",
+    "time": {
+      "milliseconds": "milisegundos",
+      "ms": "ms",
+      "seconds": "segundos",
+      "sec": "s"
+    },
+    "title": "Studio Assist",
+    "submit": "Enviar",
+    "submitting": "Enviar formulario",
+    "offline": "Actualmente estás desconectado"
+  },
+  "device": {
+    "label": "Nombre del Dispositivo",
+    "placeholder": "MacBook Pro",
+    "formato": "Solo letras y números"
+  },
+  "files": {
+    "autoupdate": "Actualizar automáticamente clave y tempo",
+    "errors": {
+      "aiff": "Los archivos AIFF no son compatibles",
+      "detection": "No se pudo detectar este archivo",
+      "none": "No seleccionaste un archivo de audio",
+      "size": "El tamaño del archivo es demasiado pequeño"
+    },
+    "file": "Archivo",
+    "history": "Detecciones de archivos anteriores",
+    "double": "Doble Tiempo",
+    "halftime": "Medio Tiempo",
+    "song_key": "Clave de música",
+    "support": "Los archivos compatibles incluyen WAV, M4A, MP3",
+    "tempo": "Tempo",
+    "title": "Detección de Archivos",
+    "info": "Sube un archivo para detectar automáticamente su tempo, tonalidad y otras métricas esenciales.",
+    "upgrade": "Características Pro: detectar la clave de la canción, mediciones LUFS y ver mediciones históricas.",
+    "loading": "Escaneando archivo",
+    "update": "Actualizar",
+    "updated": "Tempo de la aplicación actualizado a [tempo] BPM",
+    "updated_key": "Clave de la aplicación actualizada a [key] [scale]",
+    "upload": "Haz clic para seleccionar archivo para análisis",
+    "upload_new": "Subir nuevo",
+    "multiply": {
+      "double": "2x",
+      "half": "0.5x"
+    }
+  },
+  "menu": {
+    "calculator": "Milisegundos",
+    "scales": "Escalas",
+    "settings": "Ajustes",
+    "files": "Tempo",
+    "title": "menú navegación",
+    "reference": "Reference"
+  },
+  "languages": {
+    "en": "Inglés",
+    "fr": "Francés",
+    "es": "Español"
+  },
+  "milliseconds": {
+    "info": "Calcula automáticamente los tiempos de reverberación óptimos que se sincronizan con el tempo de tu canción.",
+    "upgrade": "Funciones Pro: pre-retardo, notación de triplete y puntillo, clic para copiar, convertir a segundos, swing y atajos de teclado.",
+    "copying_seconds": "Copiando en segundos",
+    "carousel": {
+      "focus": "Enfocarse en los cálculos"
+    },
+    "copied": "Copiado [time] para [notation]",
+    "decrease": "Reducir por uno",
+    "increase": "Incrementar por uno",
+    "modifiers": {
+      "dotted": "Puntillo",
+      "standard": "Estándar",
+      "triplets": "Tresillo"
+    },
+    "notes": {
+      "128": "1/128",
+      "64": "1/64",
+      "32": "1/32",
+      "16": "1/16",
+      "8": "1/8",
+      "4": "1/4",
+      "2": "1/2",
+      "1": "1 compás",
+      "1half": "1.5 compases",
+      "2bars": "2 compases",
+      "3bars": "3 compases",
+      "4bars": "4 compases"
+    },
+    "pre": "Pre",
+    "predelay": "Pre-Delay",
+    "predelays": {
+      "none": "Sin Pre-Delay",
+      "256": "1/256",
+      "128": "1/128",
+      "64": "1/64",
+      "32": "1/32",
+      "16": "1/16",
+      "8": "1/8",
+      "4": "1/4"
+    },
+    "reset": "Restablecer swing",
+    "tempo": "Tempo",
+    "title": "Calculador de Milisegundos",
+    "tap": "Tocar aquí",
+    "tap_tempo": "Tempo por Tapping",
+    "tap_update": "Actualizar tempo",
+    "shortcuts": {
+      "modifier": "Copiar en segundos - Clic + Mantener 'CMD / CTRL'",
+      "tap": "Tocar - Presiona 'T / Espacio / Enter'"
+    }
+  },
+  "scales": {
+    "copied": "Frecuencia copiada para [key] al portapapeles",
+    "names": {
+      "major": "Mayor",
+      "minor": "Menor"
+    },
+    "octave": "Octava",
+    "title": "Escalas y Frecuencias",
+    "info": "Accede fácilmente a todas las claves y escalas, junto con la información de frecuencia para cada octava.",
+    "upgrade": "Funciones Pro: escalas restantes y todas las notas bemol/sostenido.",
+    "ranges": {
+      "sub": "Sub",
+      "lows": "Bajos",
+      "lowmids": "Medios bajos",
+      "mids": "Medios",
+      "highmids": "Medios altos",
+      "presence": "Presencia",
+      "air": "Aire"
+    },
+    "relative": "[scale] Relativo",
+    "search_keys": "Buscar notas",
+    "search_scales": "Buscar escalas"
+  },
+  "settings": {
+    "headings": {
+      "fonts": "Tamaño de Fuente",
+      "language": "Idioma",
+      "reset": "Restablecer configuraciones / registros",
+      "title": "Ajustes",
+      "theme": "Apariencia"
+    },
+    "info": {
+      "fonts": "Aumenta o disminuye la legibilidad.",
+      "language": "Tu idioma preferido.",
+      "reset": "Restablecer configuraciones o guardar archivos de registro en el escritorio para soporte.",
+      "theme": "Determinar esquema de color."
+    },
+    "decimals": {
+      "heading": "Recortar decimales",
+      "info": "Número máximo de decimales a copiar."
+    },
+    "fonts": {
+      "options": {
+        "sm": "Pequeña",
+        "base": "Normal",
+        "lg": "Grande",
+        "xl": "Extra Grande"
+      }
+    },
+    "menu": {
+      "key_detection": "Detección de clave",
+      "preferences": "Preferencias",
+      "metronome": "Metrónomo"
+    },
+    "theme": {
+      "auto": "Sistema",
+      "dark": "Oscuro",
+      "light": "Claro"
+    },
+    "key_detection": {
+      "auto_tuning": {
+        "label": "Afinación Automática"
+      },
+      "tuning": {
+        "heading": "Frecuencia de Afinación",
+        "info": "La frecuencia de afinación del archivo."
+      },
+      "frequency": {
+        "heading": "Rango de Frecuencia",
+        "info": "Las frecuencias mínimas y máximas para evaluar.",
+        "min": "Mínimo",
+        "max": "Máximo"
+      },
+      "profile": {
+        "heading": "Perfil de Detección",
+        "info": "El perfil de detección polifónica utilizado para detectar la clave."
+      }
+    }
+  },
+  "shortcuts": {
+    "shortcut": "Presione 'S'"
+  },
+  "metronome": {
+    "start": "Iniciar",
+    "stop": "Detener",
+    "settings": "Configuración del metrónomo",
+    "time": {
+      "heading": "Compás"
+    },
+    "tone": {
+      "heading": "Frecuencia de Tono",
+      "tick_tone": "Normal",
+      "tick_tone_start": "Primer",
+      "tick_volume": "Volumen"
+    },
+    "volume": {
+      "heading": "Volumen de Tono"
+    },
+    "shortcuts": {
+      "start": "Iniciar - Presiona 'Espacio / Enter'",
+      "stop": "Detener - Presiona 'Espacio / Enter'"
+    }
+  },
+  "reference": {
+    "title": "Referencia",
+    "info": "Compara dos archivos de audio igualando su volumen promedio, permitiendo una evaluación precisa de las diferencias.",
+    "upgrade": "Pro Features: coincidencia automática de ganancia y atajos de teclado.",
+    "labels": {
+      "add_a": "Canción A",
+      "add_b": "Canción B",
+      "replace_a": "Reemplazar A",
+      "replace_b": "Reemplazar B"
+    },
+    "controls": {
+      "volume": "Volumen",
+      "reset": "Actualizar"
+    },
+    "gain": {
+      "on": "Activar Coincidencia de Ganancia",
+      "off": "Desactivar Coincidencia de Ganancia",
+      "toggle": "Alternar coincidencia de ganancia"
+    },
+    "shortcuts": {
+      "play": "Reproducir - Presiona 'Espacio'",
+      "stop": "Detener - Presiona 'Enter'",
+      "toggle_song": "Alternar - Presiona 'T'",
+      "toggle_gain": "Subir/Bajar Ganancia - Presiona 'H'",
+      "toggle_match": "Igualar Ganancia - Presiona 'G'",
+      "volume": "Volumen - Presiona 'Flecha Arriba / Abajo'",
+      "mute": "Silenciar - Presiona 'M'",
+      "file_a": "Archivo A - Presiona '1'",
+      "file_b": "Archivo B - Presiona '2'",
+      "skip_left": "Retroceder 10s - Presiona 'Flecha Izquierda'",
+      "skip_right": "Adelantar 10s - Presiona 'Flecha Derecha'"
+    },
+    "tracks": {
+      "load": "Cargar archivo - \"[archivo]\"",
+      "error_used": "Esta pista ya tiene este archivo."
+    }
+  }
+}

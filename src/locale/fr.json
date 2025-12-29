@@ -1,0 +1,264 @@
+{
+  "scales": {
+    "ranges": {
+      "sub": "Sub",
+      "lowmids": "Bas-médium",
+      "air": "Air",
+      "highmids": "Haut-médium",
+      "lows": "Basses",
+      "mids": "Médiums",
+      "presence": "Présence"
+    },
+    "names": {
+      "major": "Majeur",
+      "minor": "Mineure"
+    },
+    "search_keys": "Rechercher les tons",
+    "copied": "Copié la fréquence pour [key] dans le presse-papier",
+    "search_scales": "Rechercher les échelles",
+    "octave": "Octave",
+    "relative": "[scale] Relatif",
+    "title": "Échelles et Fréquences",
+    "info": "Récupérez facilement chaque clé et échelle ainsi que les informations de fréquence pour chaque octave.",
+    "upgrade": "Fonctionnalités Pro: les gammes restantes et toutes les notes bémol/dièse.",
+    "offline": "Vous êtes actuellement hors ligne"
+  },
+  "files": {
+    "errors": {
+      "none": "Vous n'avez pas sélectionné un fichier audio",
+      "detection": "Impossible de détecter ce fichier",
+      "size": "La taille du fichier est trop petite",
+      "aiff": "Les fichiers AIFF ne sont pas compatibles"
+    },
+    "file": "Déposer",
+    "history": "Détections de fichiers passées",
+    "loading": "Balayage du fichier",
+    "autoupdate": "Mise à jour automatique de la clé et du tempo",
+    "upload": "Cliquez pour sélectionner le fichier à analyser",
+    "title": "Détection de fichiers",
+    "info": "Téléchargez un fichier pour détecter automatiquement son tempo, sa clé et d'autres mesures essentielles.",
+    "upgrade": "Fonctionnalités Pro : détecter la clé de la chanson, mesures LUFS et voir les mesures historiques.",
+    "double": "Double temps",
+    "halftime": "Mi-Temps",
+    "song_key": "Gammes Musicales",
+    "update": "Mettre à jour",
+    "support": "Les fichiers compatibles incluent WAV, M4A, MP3",
+    "updated": "Tempo de l'application mise à jour à [tempo] BPM",
+    "updated_key": "Clé d'application mise à jour sur [key] [scale]",
+    "tempo": "Tempo",
+    "upload_new": "Télécharger un nouveau",
+    "multiply": {
+      "double": "2x",
+      "half": "0.5x"
+    }
+  },
+  "settings": {
+    "info": {
+      "language": "Votre langue préférée\n",
+      "theme": "Déterminer le choix de couleurs",
+      "fonts": "Augmentation ou diminution de lisibilité.",
+      "reset": "Réinitialiser les paramètres ou enregistrer les fichiers journaux sur le bureau pour le support."
+    },
+    "decimals": {
+      "heading": "Décimales",
+      "info": "Nombre maximal de décimales à copier."
+    },
+    "fonts": {
+      "options": {
+        "base": "Normal",
+        "sm": "Petit",
+        "lg": "Grande",
+        "xl": "Très Grande"
+      }
+    },
+    "theme": {
+      "dark": "Foncé",
+      "auto": "Système",
+      "light": "Clair"
+    },
+    "headings": {
+      "language": "Langue",
+      "fonts": "Taille des caractères",
+      "reset": "Réinitialiser les paramètres / journaux",
+      "title": "Paramètres",
+      "theme": "Apparence"
+    },
+    "menu": {
+      "key_detection": "Détection de clé",
+      "preferences": "Préférences",
+      "metronome": "Métronome",
+      "reference": "Reference"
+    },
+    "key_detection": {
+      "auto_tuning": {
+        "label": "Accordage Automatique"
+      },
+      "tuning": {
+        "heading": "Fréquence d'accordage",
+        "info": "La fréquence d'accordage du fichier."
+      },
+      "frequency": {
+        "heading": "Plage de fréquence",
+        "info": "Les fréquences minimales et maximales à évaluer.",
+        "min": "Min",
+        "max": "Max"
+      },
+      "profile": {
+        "heading": "Profil de détection",
+        "info": "Le profil de détection polyphonique utilisé pour détecter la clé."
+      }
+    }
+  },
+  "shortcuts": {
+    "shortcut": "Appuyez sur 'S'"
+  },
+  "languages": {
+    "en": "Anglais",
+    "fr": "Français",
+    "es": "Espagnol"
+  },
+  "general": {
+    "close": "Fermer",
+    "loading": "Chargement",
+    "time": {
+      "seconds": "secondes",
+      "sec": "s",
+      "ms": "ms",
+      "milliseconds": "millisecondes"
+    },
+    "submitting": "Soumettre le formulaire",
+    "frequencies": {
+      "kilohertz": "kHz",
+      "hertz": "Hz"
+    },
+    "submit": "Soumettre",
+    "bpm": "BPM",
+    "cancel": "Annuler",
+    "title": "Studio Assist",
+    "preview": "Fonctionalité exclusif de Pro",
+    "preview_long": "Ceci est uniquement disponible avec le Mode Pro.",
+    "pro": "Mode Pro"
+  },
+  "milliseconds": {
+    "info": "Calculez automatiquement les temps de réverbération optimaux qui se synchronisent avec le tempo de votre chanson.",
+    "upgrade": "Fonctionnalités Pro: pré-délai, notation triolet et pointée, cliquer pour copier, convertir en secondes, swing et raccourcis clavier.",
+    "copying_seconds": "Copie en secondes",
+    "carousel": {
+      "focus": "Mettre l'accent sur les calculs"
+    },
+    "modifiers": {
+      "dotted": "Pointillé",
+      "triplets": "Triolets",
+      "standard": "Standard"
+    },
+    "predelays": {
+      "64": "1/64",
+      "none": "Aucun Pré-Délai",
+      "8": "1/8",
+      "32": "1/32",
+      "4": "1/4",
+      "16": "1/16",
+      "256": "1/256",
+      "128": "1/128"
+    },
+    "notes": {
+      "16": "1/16",
+      "1half": "1,5 mesures",
+      "4bars": "4 mesures",
+      "2bars": "2 mesures",
+      "32": "1/32",
+      "2": "1/2",
+      "1": "1 mesure",
+      "4": "1/4",
+      "8": "1/8",
+      "3bars": "3 mesures",
+      "64": "1/64",
+      "128": "1/128"
+    },
+    "predelay": "Pré-Délai",
+    "pre": "Pré",
+    "increase": "Augmenter par un",
+    "title": "Calculatrice des Millisecondes",
+    "decrease": "Diminuer par un",
+    "reset": "Réinitialiser le swing",
+    "tempo": "Tempo",
+    "copied": "Copié [time] pour [notation]",
+    "tap": "Appuyez ici",
+    "tap_tempo": "Tempo par Tap",
+    "tap_update": "Mettre à jour le tempo",
+    "shortcuts": {
+      "modifier": "Copiar en segundos - Clic + Mantener 'CMD / CTRL'",
+      "tap": "Taper - Appuyez sur 'T / Espace / Entrée'"
+    }
+  },
+  "menu": {
+    "scales": "Échelles ",
+    "calculator": "Millisecondes",
+    "settings": "Paramètres",
+    "files": "Tempo",
+    "title": "menu la navigation"
+  },
+  "device": {
+    "label": "Nom d'appareil ",
+    "placeholder": "MacBook Pro",
+    "format": "Uniquement lettres et chiffres"
+  },
+  "metronome": {
+    "start": "Démarrer",
+    "stop": "Arrêter",
+    "settings": "Réglages du métronome",
+    "time": {
+      "heading": "Signature de temps"
+    },
+    "tone": {
+      "heading": "Fréquence de ton",
+      "tick_tone": "Normal",
+      "tick_tone_start": "Premier",
+      "tick_volume": "Volume"
+    },
+    "volume": {
+      "heading": "Volume de ton"
+    },
+    "shortcuts": {
+      "start": "Démarrer - Appuyez sur 'Espace / Entrée'",
+      "stop": "Arrêter - Appuyez sur 'Espace / Entrée'"
+    }
+  },
+  "reference": {
+    "title": "Référence",
+    "info": "Comparez deux fichiers audio en égalisant leur volume moyen, permettant une évaluation précise des différences.",
+    "upgrade": "Pro Features: auto gain matching and keyboard shortcuts.",
+    "labels": {
+      "add_a": "Chanson A",
+      "add_b": "Chanson B",
+      "replace_a": "Remplacer A",
+      "replace_b": "Remplacer B"
+    },
+    "controls": {
+      "volume": "Volume",
+      "reset": "Rafraîchir"
+    },
+    "gain": {
+      "on": "Activation du Gain Match",
+      "off": "Désactivation du Gain Match",
+      "toggle": "Basculer la correspondance de gain"
+    },
+    "shortcuts": {
+      "play": "Lire - Appuyez sur 'Espace'",
+      "stop": "Arrêter - Appuyez sur 'Entrée'",
+      "toggle_song": "Basculer - Appuyez sur 'T'",
+      "toggle_gain": "Augmenter/Réduire le Gain - Appuyez sur 'H'",
+      "toggle_match": "Correspondance du Gain - Appuyez sur 'G'",
+      "volume": "Volume - Appuyez sur 'Flèche Haut / Bas'",
+      "mute": "Muet - Appuyez sur 'M'",
+      "file_a": "Fichier A - Appuyez sur '1'",
+      "file_b": "Fichier B - Appuyez sur '2'",
+      "skip_left": "Reculer de 10s - Appuyez sur 'Flèche Gauche'",
+      "skip_right": "Avancer de 10s - Appuyez sur 'Flèche Droite'"
+    },
+    "tracks": {
+      "load": "Charger le fichier - \"[fichier]\"",
+      "error_used": "Ce morceau a déjà ce fichier."
+    }
+  }
+}

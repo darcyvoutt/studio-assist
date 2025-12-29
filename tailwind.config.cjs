@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.vue', './index.html'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        inherit: 'inherit',
+        transparent: 'transparent',
+        error: '#ba1b1b',
+        'error-container': '#ffdad4',
+        'inverse-on-surface': '#f0f0f3',
+        'inverse-surface': '#2e3133',
+        'on-background': '#1a1c1e',
+        'on-error': '#ffffff',
+        'on-error-container': '#410001',
+        'on-primary': '#ffffff',
+        'on-primary-container': '#410003',
+        'on-secondary': '#ffffff',
+        'on-secondary-container': '#001e31',
+        'on-surface': '#1a1c1e',
+        'on-surface-variant': '#524342',
+        'on-tertiary': '#ffffff',
+        'on-tertiary-container': '#002116',
+        outline: '#857371',
+        primary: '#eb4444',
+        'primary-container': '#ffdad5',
+        'primary-interactive': '#cd1616',
+        secondary: '#212529',
+        'secondary-container': '#cae6ff',
+        surface: '#1F1E21',
+        'surface-variant': '#232328',
+        'surface-variant-accent': '#39373E',
+        tertiary: '#006c51',
+        'tertiary-container': '#64fbcb',
+      },
+      animation: {
+        pulse: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+    },
+  },
+  plugins: [require('@tailwindcss/forms')],
+}

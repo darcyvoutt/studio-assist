@@ -1,0 +1,56 @@
+{
+  "name": "studio-assist",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "env -u ENABLE_CODE_SIGNING -u APPLE_CERTIFICATE -u APPLE_CERTIFICATE_PASSWORD -u APPLE_SIGNING_IDENTITY -u APPLE_ID -u APPLE_PASSWORD -u APPLE_TEAM_ID tauri build",
+    "build-intel": "yarn build --target x86_64-apple-darwin",
+    "dev": "yarn tauri dev",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri-build": "run-s -l \"tauri-build:**\"",
+    "tauri-build:css": "yarn tailwindcss -i ./src/main.css -o ./dist/main.css --minify",
+    "tauri-build:vite": "vite build",
+    "tauri-dev": "run-p -l \"tauri-dev:**\"",
+    "tauri-dev:css": "yarn tailwindcss -i ./src/main.css -o ./dist/main.css --watch",
+    "tauri-dev:vite": "vite",
+    "version-major": "node tasks/version --change=major",
+    "version-minor": "node tasks/version --change=minor",
+    "version-patch": "node tasks/version --change=patch",
+    "update-cargo": "cd src-tauri && cargo update"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tauri-apps/api": "^1.5.3",
+    "essentia.js": "^0.1.3",
+    "moment": "^2.30.1",
+    "tonal": "^6.0.0",
+    "vite-jsconfig-paths": "^2.0.1",
+    "vue": "^3.4.21",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.11",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "cwd": "^0.10.0",
+    "npm-run-all2": "^6.1.2",
+    "simple-git": "^3.24.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.1.7",
+    "wavesurfer-multitrack": "^0.4.11"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@4.0.2"
+}
