@@ -2,10 +2,6 @@
 
 This repo is the Studio Assist app rebuilt using the Tauri application framework.
 
-## Releases
-
-[Releases Repository](https://github.com/darcyvoutt/studio-assist-releases)
-
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/)
@@ -25,4 +21,3 @@ Simply run `yarn dev` to run the development mode which will startup Tailwind, V
 ## Build
 
 The starter script is `yarn build` which will compile Tailwind and build Tauri. However, if on an ARM Mac, you can run `yarn build-intel` to build for Intel based Macs specifically.
-# studio-assist
