@@ -53,6 +53,7 @@
     },
     "bundle": {
       "active": true,
+      "category": "Music",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -61,7 +62,10 @@
         "icons/icon.ico"
       ],
       "identifier": "com.musicbydarcy.StudioAssist",
-      "targets": "all"
+      "targets": [
+        "dmg",
+        "nsis"
+      ]
     },
     "security": {
       "csp": null
