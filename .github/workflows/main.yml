@@ -1,8 +1,8 @@
-name: 'Free Build'
+name: 'Build'
 on:
   push:
     branches:
-      - feature/free
+      - main
 
 jobs:
   publish-tauri:
