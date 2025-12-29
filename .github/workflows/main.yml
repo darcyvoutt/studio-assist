@@ -56,5 +56,4 @@ jobs:
           prerelease: false
           releaseCommitish: 'release' # static sha to test if pushing multiple targets
           owner: ${{ github.repository_owner }}
-          repo: ${{ vars.RELEASE_REPO }}
           args: ${{ matrix.settings.args }}
