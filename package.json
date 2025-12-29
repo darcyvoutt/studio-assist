@@ -4,8 +4,9 @@
   "version": "4.0.0",
   "type": "module",
   "scripts": {
-    "build": "env -u ENABLE_CODE_SIGNING -u APPLE_CERTIFICATE -u APPLE_CERTIFICATE_PASSWORD -u APPLE_SIGNING_IDENTITY -u APPLE_ID -u APPLE_PASSWORD -u APPLE_TEAM_ID tauri build",
+    "build": "tauri build",
     "build-intel": "yarn build --target x86_64-apple-darwin",
+    "build-windows": "yarn build --target x86_64-pc-windows-msvc",
     "dev": "yarn tauri dev",
     "preview": "vite preview",
     "tauri": "tauri",
