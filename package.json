@@ -4,7 +4,7 @@
   "version": "4.0.0",
   "type": "module",
   "scripts": {
-    "build": "tauri build",
+    "build": "node tasks/build.js",
     "build-intel": "yarn build --target x86_64-apple-darwin",
     "build-windows": "yarn build --target x86_64-pc-windows-msvc",
     "dev": "yarn tauri dev",
